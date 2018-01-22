@@ -10,7 +10,7 @@ public class SOQ47676034 extends Application<SOQ47676034Configuration> {
     @Override
     public void initialize(Bootstrap<SOQ47676034Configuration> bootstrap) {
 
-        bootstrap.getObjectMapper().disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+//        bootstrap.getObjectMapper().disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
     }
 
     @Override
